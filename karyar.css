@@ -1,0 +1,135 @@
+
+.head{
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+color: white;
+    
+}
+.tehranlocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.locationIcon{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.name{
+    display: inline-block;
+}
+
+.wednesday{
+display: grid;
+grid-template-columns: 2fr 2fr 0.5fr 0.5fr;
+font-size: 18px;
+
+}
+
+.headTable{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 22px;
+}
+.table{
+    display: grid;
+    row-gap: 40px;
+    color: white;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-top: px;
+    padding-bottom: 27px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(37, 37, 37, 0.333);
+    backdrop-filter: blur(7px);
+
+}
+
+.sidecontainer{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.picture{
+    width: 150px;
+    vertical-align: top;
+
+}
+
+.abrpicture{
+width: 150px;
+height: 150px;
+object-fit: cover;
+
+}
+
+.bolddegree{
+    font-size: 25px;
+    display:inline;
+
+    
+
+}
+.aboutrain{
+display: inline;
+font-size: 20px;
+
+}
+
+.middlesection{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    vertical-align: middle;
+    align-items:center;
+    justify-content:center;
+}
+
+.anotherdegree{
+    display: grid;
+    grid-template-columns: 30px 30px;
+    align-items: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.twosections{
+display: grid;
+margin-bottom: 150px;
+grid-template-columns: 300px 1fr;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+@media only screen and (max-width:618px){
+.twosections{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+}
+
+@media only screen and (max-width:314px){
+.twosections{
+    padding: 30px;
+}
+}
+
+@media only screen and (max-width:288px){
+.headTable , .wednesday , .head{
+    font-size: 15px;
+}
+}
